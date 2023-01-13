@@ -6,40 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <div class="logo"><a href="#">FISHTANA</a></div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Beranda</a></li>
-                <div class="dropdown">Tentang
-                    <div class="dropdown-content">
-                        <a href="ikanRamirezi.html">Ikan Longfin Ramirezi</a>
-                        <a href="uburkotak.html">Ubur-Ubur Kotak</a>
-                        <a href="ikanPlaty.html">Ikan Platy</a>
-                        <a href="ikanSapu.html">Ikan Sapu-Sapu</a>
-                        <a href="ikanCorydoras.html">Ikan Corydoras</a>
-                    </div>
-                </div>
-                <li><a href="#">Produk</a></li>
-                <li><a href="#">Tips</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">FISHTANA</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-    <div class="row">
-        <div class="column">
-            <div class="text">
-                <h1 style="color: orangered;">Ikan Platy</h1><br>
-                <p>Ikan platy merupakan jenis komunitas ikan yang tergolong hebat. Ikan tersebut juga sangat rukun dan
-                    damai, meski satu akuarium bersama jenis ikan lain seperti molly dan guppy. Jadi, kamu tidak perlu
-                    khawatir jika ikan-ikan tersebut ditempatkan dalam satu akuarium.</p><br>
+                </ul>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown">Tentang</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="ikanRamirezi.html">Ikan Longfin Ramirezi</a></li>
+                        <li><a href="uburkotak.html">Ubur-Ubur Kotak</a></li>
+                        <li><a href="ikanPlaty.html">Ikan Platy</a></li>
+                        <li><a href="ikanSapu.html">Ikan Sapu-Sapu</a></li>
+                        <li><a href="ikanCorydoras.html">Ikan Corydoras</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="forms.html">Forms</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Produk</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Tips</a>
+                </li>
+
             </div>
         </div>
-        <div class="column">
-            <img src="https://gerava.com/wp-content/uploads/2019/08/Ikan-platy-merah.jpg" alt=""
-                width="90%" class="img1">
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col-md-6 col-12">
+                <div class="text">
+                    <h1 style="color: orangered;">Ikan Platy</h1><br>
+                    <p>Ikan platy merupakan jenis komunitas ikan yang tergolong hebat. Ikan tersebut juga sangat rukun dan
+                        damai, meski satu akuarium bersama jenis ikan lain seperti molly dan guppy. Jadi, kamu tidak perlu
+                        khawatir jika ikan-ikan tersebut ditempatkan dalam satu akuarium.</p><br>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <img src="https://gerava.com/wp-content/uploads/2019/08/Ikan-platy-merah.jpg" alt=""
+                    width="90%" class="img1">
+            </div>
         </div>
     </div>
 </body>
